@@ -3,4 +3,4 @@ Copyright 2012 - 2020 Sclera, Inc.
  
 This product uses the following third-party components:
 
-SBT - www.scala-sbt.org - BSD License - https://raw2.github.com/sbt/sbt/0.12.0/LICENSE
+SBT Launcher Interface - Apache License v2.0 - http://www.apache.org/licenses/LICENSE-2.0
