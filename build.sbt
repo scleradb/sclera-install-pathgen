@@ -27,3 +27,5 @@ scalacOptions ++= Seq(
 )
 
 publishArtifact in (Compile, packageDoc) := false
+
+exportJars := true
