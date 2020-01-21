@@ -4,6 +4,8 @@ description := "Installation helper package -- while installing an artifact, get
 
 version := "4.0"
 
+homepage := Some(url("https://github.com/scleradb/sclera-install-pathgen"))
+
 organization := "com.scleradb"
 
 organizationName := "Sclera, Inc."
