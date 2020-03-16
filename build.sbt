@@ -2,15 +2,16 @@ name := "sclera-install-pathgen"
 
 description := "Installation helper package -- while installing an artifact, gets the classpath containing the artifact and its dependencies"
 
-version := "4.0"
+homepage := Some(url(s"https://github.com/scleradb/${name.value}"))
 
-homepage := Some(url("https://github.com/scleradb/sclera-install-pathgen"))
+scmInfo := Some(
+    ScmInfo(
+        url(s"https://github.com/scleradb/${name.value}"),
+        s"scm:git@github.com:scleradb/${name.value}.git"
+    )
+)
 
-organization := "com.scleradb"
-
-organizationName := "Sclera, Inc."
-
-organizationHomepage := Some(url("https://www.scleradb.com"))
+version := "4.0-SNAPSHOT"
 
 startYear := Some(2012)
 
@@ -27,7 +28,5 @@ libraryDependencies ++= Seq(
 scalacOptions ++= Seq(
     "-Werror", "-feature", "-deprecation", "-unchecked"
 )
-
-publishArtifact in (Compile, packageDoc) := false
 
 exportJars := true
